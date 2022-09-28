@@ -23,9 +23,12 @@ function App() {
 
   return (
     <div className="App">
-      <p>
-        {text}
-      </p>
+      <div className="content">
+        <p>
+          {text}
+        </p>
+        <button onClick={fetch}>ADVICE</button>
+      </div>      
     </div>
   );
 }
